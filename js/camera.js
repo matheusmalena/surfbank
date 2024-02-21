@@ -4,9 +4,9 @@ const video = document.querySelector("[data-video]");
 const botaoTirarFoto = document.querySelector("[data-tirar-foto]");
 const canvas = document.querySelector("[data-video-canvas]");
 const mensagem = document.querySelector("[data-mensagem]");
-const botaoEnviarFoto = document.querySelector("[data-enviar]");
+const botaoEnviarFoto = document.querySelector("[data-enviar]")
 
-let imagemURL = "";
+let imagemURL = '';
 
 botaoIniciarCamera.addEventListener('click', async function () {
     const iniciarVideo = await navigator.mediaDevices
